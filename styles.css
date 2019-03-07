@@ -1,0 +1,79 @@
+body {
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.scoreboard {
+  display: inline-block;
+  background-color: rgb(146, 144, 144); 
+  border: 3px solid rgb(110, 5, 247);
+  height: 1.5em;
+  max-height: 2em;
+  margin: 0;
+  min-width:43%;
+  padding: 10px;
+}
+
+#playername {
+  float: left; 
+}
+
+#playerscore{
+  float: right; 
+}
+
+#computerscore {
+  float: left; 
+}
+
+#computername {
+  float: right; 
+}
+
+#intro {
+  text-align: center; font-size: 25px; margin-bottom: 8px; 
+  text-decoration: underline;
+  }
+
+.game {
+  align: center;
+  display: inline-block;
+  background-color: #333; 
+  border: 1px solid #FFF;
+  width: 89%;
+  height: 420px;
+  margin: 0;
+  padding: 10px;
+}
+
+.choice {
+ justify-content: center;
+ margin: 4px;
+ min-width: 76px;
+ border: 1px solid #999;
+ font-size: 1.5em;
+ background-color: #555; 
+ color: white;
+ border-radius: 3px;
+ transition-duration: 1.25s;
+}
+
+.choice:focus{
+ background-color: #777;
+ outline-color: rgb(243, 247, 6);
+ box-shadow: 0 0 3px 2px rgb(2, 7, 247);
+}
+
+#result {
+ min-width: 80%;
+ border: 3px solid rgb(110, 5, 247);
+ background-color: #555;
+ text-align: center;
+ line-height: 1.4em;
+ display: block;
+ position: relative;
+ margin-top: 3em; 
+ font-size: 1.4em;
+ padding-left: 6px;
+}
